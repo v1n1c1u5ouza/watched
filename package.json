@@ -1,0 +1,23 @@
+{
+  "name": "watched",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v1n1c1u5ouza/watched.git"
+  },
+  "author": "Vinicius de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v1n1c1u5ouza/watched/issues"
+  },
+  "homepage": "https://github.com/v1n1c1u5ouza/watched#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
