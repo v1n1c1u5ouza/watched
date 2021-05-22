@@ -1,0 +1,43 @@
+o que vamos fazer nesse projeto?
+
+CRUD - as operações básicas de um cadastro
+
+Create
+Read
+Update
+Delete
+
+backend, que vai ser uma API Rest usando o nodejs + express
+
+frontend, em angular que também é JS
+
+nós vamos criar um cadastro de filmes
+
+linguagens de alto nível: JS, C#, Java, Ruby... elas são as linguagens que funcionam com uma gramática
+voltada para o ser humano.
+
+const helloWorld = 'Hello World!!!';
+console.log(helloWorld);
+
+as linguagens de alto nível elas são compiladas para linguagem de máquina.
+
+
+22/05/2021
+
+o que faremos? vamos continuar a nossa web api e vamos começar aprender sobre métodos HTTP. Vamos de fato expor
+nossos códigos e funções para serem consumidos por um client.
+
+HTTP
+
+VERBS 
+Create - POST
+Read - GET
+Update - PUT
+Delete - DELETE
+
+try {
+    await api.GetMovie(movieId);
+    // status 200
+} catch (error) {
+    // status 404
+}
